@@ -50,8 +50,17 @@ section#loguin {
     background-size: cover;
 }
 
-section#loguin > #formulario {
+section#loguin > div#formulario {
     display: block;
     padding: 10px;
 
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
 }

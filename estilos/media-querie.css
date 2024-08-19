@@ -44,13 +44,27 @@ Grande telas: acima de 1200px
     }
 
     #loguin > #imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     #loguin > #formulario {
-        float: right;
+        float: left;
         width: 50%;
     }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 0.8em;
+    }
 }
+
+div#formulario {
+    text-align: center;
+    margin-bottom:10px;
+}
+
