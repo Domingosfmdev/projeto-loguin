@@ -18,6 +18,7 @@ Grande telas: acima de 1200px
 
     section#loguin {
         width: 80vw;
+        height: 300px;
     }
 
     #loguin > #imagem {
@@ -50,6 +51,7 @@ Grande telas: acima de 1200px
     }
 
     #loguin > #formulario {
+        
         float: left;
         width: 50%;
     }
@@ -61,6 +63,7 @@ Grande telas: acima de 1200px
     div#formulario > p {
         font-size: 0.8em;
     }
+
 }
 
 div#formulario {
