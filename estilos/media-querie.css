@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/* Typical Device breakpoints
+-----------------------------
+pequenas telas: até 600px
+celular: 600px até 768px
+tablet:  768px até 992px
+Desktop: 992px até 1200px
+Grande telas: acima de 1200px
+-----------------------------
+*/
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82) ;
+    }
+
+
+    section#loguin {
+        width: 80vw;
+    }
+
+    #loguin > #imagem {
+        float: left;
+        height: 100%;
+        background-position: center center;
+        width: 30%;
+        background-size: cover;
+    }
+
+    #loguin > #formulario {
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82) ;
+    }
+
+    section#loguin {
+        width: 950px;
+    }
+
+    #loguin > #imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    #loguin > #formulario {
+        float: right;
+        width: 50%;
+    }
+}
